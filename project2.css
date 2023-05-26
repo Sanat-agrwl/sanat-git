@@ -1,0 +1,73 @@
+body {
+    background-color: #FFEAD2;
+    font-family: "Nunito", sans-serif;
+
+}
+
+#mainnavbar .navbar-brand {
+
+    color: #025464;
+    font-size: 1.75rem;
+
+}
+
+#mainnavbar {
+
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+#mainnavbar .nav-link {
+    color: #025464;
+}
+
+#mainnavbar .nav-link:hover {
+    color: #E57C23;
+}
+
+.navbar.scrolled {
+
+    background-color: #FFD3A3;
+    transition: background-color 100ms;
+}
+
+#mainnavbar .nav-link:active {
+    color: purple;
+}
+
+
+#btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #151b29;
+    height: 300px;
+}
+
+#projects {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+button {
+
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+
+}
+
+button:hover {
+
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translatey(-0.25em);
+    transition: all 0.2s;
+    cursor: pointer;
+
+}
